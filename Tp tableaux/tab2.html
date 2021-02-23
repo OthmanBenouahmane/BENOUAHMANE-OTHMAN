@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>tab2</title>
+    </head>
+
+    <body>
+        <style>
+            table, th, td {
+              border: 1px solid black;
+              border-collapse: collapse;
+            }
+            th, td {
+              padding: 5px;
+              text-align: center;    
+            }
+            </style>
+
+        <h1>Tableaux complexes</h1>
+        <h2>Fusionner des cellules en colonnes</h2>
+            
+            <table>
+              <tr>
+                <th>Nom</th>
+                <th colspan="2">Telephone</th>
+              </tr>
+              <tr>
+                <td>Abassi Hamid</td>
+                <td>0663636363</td>
+                <td>0661636360</td>
+              </tr>
+              <tr>
+            </table>
+
+            <h1>Fusionner des cellules en lignes</h1>
+            <table>
+                <tr>
+                  <th>Nom</th>
+                  <td>Telephone</td>
+                </tr>
+                <tr>
+                  <th rowspan="2">Telephone</th>
+                  <td>0663636363</td>
+                </tr>
+                <tr>
+                  <td>0661636360</td>
+                </tr>
+              </table>
+
+              <h1>Fusion des cellules</h1>
+              <table>
+                  <tr>
+                    <td colspan="2">Colonnes 1 et 2 fusionnées</td>
+                    <td>Colonne 3</td>
+                    <td colspan="2">Colonnes 4 et 5 fusionnées</td>  
+                  </tr>
+                  
+                  <tr>
+                      <td>Colonne 1</td>
+                      <td>Colonne 2</td>
+                      <td>Colonné 3</td>
+                      <td>Colonne 4</td>
+                      <td>Colonne 5</td>
+                  </tr>
+
+                  <tr>
+                      <td>Colonne 1</td>
+                      <td colspan="3">Colonnes 2,3, et 4 fusionnées</td>
+                      <td>Colonne 5</td>
+                  </tr>
+              </table>
+              
+    </body>
+</html>
